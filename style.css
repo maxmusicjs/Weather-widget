@@ -1,0 +1,30 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  margin-top:200px;
+  margin-bottom: 200px;
+}
+.weather{
+  background-color: #3a6a2c;
+  width: 500px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 30px;
+  color: #ffffff;
+
+}
+.weather_icon{
+  display: flex;
+  justify-content:flex-end;
+
+}
+.weather_loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.weather_loading img{
+  max-width: 50px;
+}
+
